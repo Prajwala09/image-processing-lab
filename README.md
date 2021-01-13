@@ -14,7 +14,6 @@ cv2.imwrite('graynature.jpg',img)
 
 output:
 ![i1](https://user-images.githubusercontent.com/72255259/104475122-be631100-55e4-11eb-8cb2-0b9717a7312a.jpg)
-
 **2.Develop a program to perform linear transformation on image.**
 
 Linear Transformation is type of gray level transformation that is used for image enhancement. It is a spatial domain method. It is used for manipulation of an image so that the result is more suitable than the original for a specific application.
@@ -22,7 +21,6 @@ Linear Transformation is type of gray level transformation that is used for imag
 Image scaling is a computer graphics process that increases or decreases the size of a digital image. An image can be scaled explicitly with an image viewer or editing software, or it can be done automatically by a program to fit an image into a differently sized area.
 
 Image rotation is a common image processing routine with applications in matching, alignment, and other image-based algorithms. The input to an image rotation routine is an image, the rotation angle θ, and a point about which rotation is done.
-
 
 Scaling:
 import cv2
