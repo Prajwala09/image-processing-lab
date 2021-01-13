@@ -37,6 +37,8 @@ cv2.waitKey(0)
 output:
 
 ![i2](https://user-images.githubusercontent.com/72255259/104479337-519e4580-55e9-11eb-9283-b74a19c63f5d.jpg)
+
+
 rotating
 import cv2
 import numpy as np
