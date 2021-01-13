@@ -13,3 +13,4 @@ cv2.destroyAllWindows()
 cv2.imwrite('graynature.jpg',img)
 
 output:
+![i1](https://user-images.githubusercontent.com/72255259/104475122-be631100-55e4-11eb-8cb2-0b9717a7312a.jpg)
