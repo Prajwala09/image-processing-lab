@@ -37,4 +37,15 @@ cv2.waitKey(0)
 output:
 
 ![i2](https://user-images.githubusercontent.com/72255259/104479337-519e4580-55e9-11eb-9283-b74a19c63f5d.jpg)
+rotating
+import cv2
+import numpy as np
+src=cv2.imread('original.jpg')
+img=cv2.imshow('original.jpg',src)
+windowsname='image'
+image=cv2.rotate(src,cv2.ROTATE_90_CLOCKWISE)
+cv2.imshow(windowsname,image)
+c.waitKey(0)
+output
+![i3](https://user-images.githubusercontent.com/72255259/104480259-64fde080-55ea-11eb-8c24-7d5d0ffd1910.jpg)
 
