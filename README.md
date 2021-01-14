@@ -14,7 +14,7 @@ cv2.imwrite('graynature.jpg',img)
 
 output:
 ![i1](https://user-images.githubusercontent.com/72255259/104475122-be631100-55e4-11eb-8cb2-0b9717a7312a.jpg)
-**2.Develop a program to perform linear transformation on image.**
+*2.Develop a program to perform linear transformation on image.*
 
 Linear Transformation is type of gray level transformation that is used for image enhancement. It is a spatial domain method. It is used for manipulation of an image so that the result is more suitable than the original for a specific application.
 
