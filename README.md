@@ -143,6 +143,8 @@ a :  [[1 2 3 4 5]
 
 
 **8.SUM OF NEIGHBORS**
+Given a M x N matrix, find sum of all K x K sub-matrix 2. Given a M x N matrix and a cell (i, j), find sum of all elements of the matrix in constant time except the elements present at row i & column j of the matrix. Given a M x N matrix, calculate maximum sum submatrix of size k x k in a given M x N matrix in O (M*N) time. Here, 0 < k < M, N.
+
 import numpy as np
 def sumNeighbors(M,x,y):
     l = []
