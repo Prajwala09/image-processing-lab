@@ -90,6 +90,7 @@ cv2.destroyAllWindows()
 ![Untitled](https://user-images.githubusercontent.com/72255259/104540250-19c4eb80-5645-11eb-9eb9-21deec26b86d.jpg)
 ![i6](https://user-images.githubusercontent.com/72255259/104540428-76c0a180-5645-11eb-8581-d6b5e7f83a1c.jpg)
 ![i7](https://user-images.githubusercontent.com/72255259/104540674-ef276280-5645-11eb-8f3c-94a8d6f7193f.jpg)
+
 **6.DEVELOP A PROGRAM TO CREATE AN ARRAY FROM 2D ARRAY**
 For a two-dimensional array, in order to reference every element, we must use two nested loops. This gives us a counter variable for every column and every row in the matrix. int cols = 10; int rows = 10; int [] [] myArray = new int [cols] [rows]; // Two nested loops allow us to visit every spot in a 2D array Creating Arrays. You can create an array by using the new operator with the following syntax − Syntax arrayRefVar = new dataType[arraySize]; The above statement does two things − It creates an array using new dataType[arraySize]. It assigns the reference of the newly created array to the variable arrayRefVar.
 output:
