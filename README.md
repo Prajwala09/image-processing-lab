@@ -4,16 +4,17 @@ In digital photography, computer-generated imagery, and colorimetry, a grayscale
 
 To convert an image to grayscale in any of the Microsoft Office suite apps, right-click it and select Format Picture from the context menu . This will open an image editing panel on the right. Go to the Picture tab (the very last one). Expand the Picture Color options, and click the little dropdown next to the Presets for Color Saturation.
 
-import numpy as np
 import cv2
-img = cv2.imread('nature.jpg',0)
-cv2.imshow('Original',img,)
-cv2.waitKey(0)
+image=cv2.imread('original.jpg')
+grey_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+cv2.imwrite('original.jpg',image) 
+cv2.imshow("org",image)
+cv2.imshow("gimg",grey_image) 
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
-cv2.imwrite('graynature.jpg',img)
 
 output:
-![i1](https://user-images.githubusercontent.com/72255259/104475122-be631100-55e4-11eb-8cb2-0b9717a7312a.jpg)
+
 **2.Develop a program to perform linear transformation on image.**
 
 Linear Transformation is type of gray level transformation that is used for image enhancement. It is a spatial domain method. It is used for manipulation of an image so that the result is more suitable than the original for a specific application.
