@@ -54,11 +54,8 @@ output
 In digital image processing, the sum of absolute differences (SAD) is a measure of the similarity between image blocks. It is calculated by taking the absolute difference between each pixel in the original block and the corresponding pixel in the block being used for comparison
 
 Mean is most basic of all statistical measure. Means are often used in geometry and analysis; a wide range of means have been developed for these purposes. In contest of image processing filtering using mean is classified as spatial filtering and used for noise reduction.
-
-
-
-
-
+**output**
+![1](https://user-images.githubusercontent.com/72255259/104597871-e2355e00-569b-11eb-93e1-00816649ad86.jpg)
 
 **4.Develop a program to convert image to binary image and gray scale.**
 Binary images are images whose pixels have only two possible intensity values. Numerically, the two values are often 0 for black, and either 1 or 255 for white. The main reason binary images are particularly useful in the field of Image Processing is because they allow easy separation of an object from the background.
