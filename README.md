@@ -14,7 +14,7 @@ cv2.imwrite('graynature.jpg',img)
 
 output:
 ![i1](https://user-images.githubusercontent.com/72255259/104475122-be631100-55e4-11eb-8cb2-0b9717a7312a.jpg)
-*2.Develop a program to perform linear transformation on image.*
+**2.Develop a program to perform linear transformation on image.**
 
 Linear Transformation is type of gray level transformation that is used for image enhancement. It is a spatial domain method. It is used for manipulation of an image so that the result is more suitable than the original for a specific application.
 
@@ -139,6 +139,7 @@ cv2.waitKey(0)
 ![c2](https://user-images.githubusercontent.com/72255259/104577054-09316700-567f-11eb-95bf-8321556a7105.jpg)
 
 **7.Find the neighbour of matrices**
+
 In topology and related areas of mathematics, a neighbourhood (or neighborhood) is one of the basic concepts in a topological space.It is closely related to the concepts of open set and interior.Intuitively speaking, a neighbourhood of a point is a set of points containing that point where one can move some amount in any direction away from that point without leaving the set.
 
 import numpy as np
@@ -162,6 +163,7 @@ a :  [[1 2 3 4 5]
 
 
 **8.SUM OF NEIGHBORS**
+
 Given a M x N matrix, find sum of all K x K sub-matrix 2. Given a M x N matrix and a cell (i, j), find sum of all elements of the matrix in constant time except the elements present at row i & column j of the matrix. Given a M x N matrix, calculate maximum sum submatrix of size k x k in a given M x N matrix in O (M*N) time. Here, 0 < k < M, N.
 
 import numpy as np
