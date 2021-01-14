@@ -50,6 +50,16 @@ cv2.imshow(windowsname,image)
 c.waitKey(0)
 output
 ![i3](https://user-images.githubusercontent.com/72255259/104480259-64fde080-55ea-11eb-8c24-7d5d0ffd1910.jpg)
+**3.Create a program to find sum and mean of a set of image.**
+In digital image processing, the sum of absolute differences (SAD) is a measure of the similarity between image blocks. It is calculated by taking the absolute difference between each pixel in the original block and the corresponding pixel in the block being used for comparison
+
+Mean is most basic of all statistical measure. Means are often used in geometry and analysis; a wide range of means have been developed for these purposes. In contest of image processing filtering using mean is classified as spatial filtering and used for noise reduction.
+
+
+
+
+
+
 **4.Develop a program to convert image to binary image and gray scale.**
 Binary images are images whose pixels have only two possible intensity values. Numerically, the two values are often 0 for black, and either 1 or 255 for white. The main reason binary images are particularly useful in the field of Image Processing is because they allow easy separation of an object from the background.
 
@@ -68,7 +78,6 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 **output**
 ![i4](https://user-images.githubusercontent.com/72255259/104538669-5511eb00-5642-11eb-9f93-106abaf7717f.jpg)
-
 **5.Develop a program to convert given color image to different color space.**
 Color spaces are different types of color modes, used in image processing and signals and system for various purposes. The color spaces in image processing aim to facilitate the specifications of colors in some standard way. Different types of color spaces are used in multiple fields like in hardware, in multiple applications of creating animation, etc.
 import cv2 
@@ -90,7 +99,6 @@ cv2.destroyAllWindows()
 ![Untitled](https://user-images.githubusercontent.com/72255259/104540250-19c4eb80-5645-11eb-9eb9-21deec26b86d.jpg)
 ![i6](https://user-images.githubusercontent.com/72255259/104540428-76c0a180-5645-11eb-8581-d6b5e7f83a1c.jpg)
 ![i7](https://user-images.githubusercontent.com/72255259/104540674-ef276280-5645-11eb-8f3c-94a8d6f7193f.jpg)
-
 **6.DEVELOP A PROGRAM TO CREATE AN ARRAY FROM 2D ARRAY**
 For a two-dimensional array, in order to reference every element, we must use two nested loops. This gives us a counter variable for every column and every row in the matrix. int cols = 10; int rows = 10; int [] [] myArray = new int [cols] [rows]; // Two nested loops allow us to visit every spot in a 2D array Creating Arrays. You can create an array by using the new operator with the following syntax − Syntax arrayRefVar = new dataType[arraySize]; The above statement does two things − It creates an array using new dataType[arraySize]. It assigns the reference of the newly created array to the variable arrayRefVar.
 output:
