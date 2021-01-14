@@ -14,6 +14,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 output:
+![3](https://user-images.githubusercontent.com/72255259/104600668-4d346400-569f-11eb-8e45-6bc2e22d18bd.jpg)
+
 
 **2.Develop a program to perform linear transformation on image.**
 
