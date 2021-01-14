@@ -120,6 +120,7 @@ cv2.waitKey(0)
 ![c2](https://user-images.githubusercontent.com/72255259/104577054-09316700-567f-11eb-95bf-8321556a7105.jpg)
 
 **7.Find the neighbour of matrices**
+In topology and related areas of mathematics, a neighbourhood (or neighborhood) is one of the basic concepts in a topological space.It is closely related to the concepts of open set and interior.Intuitively speaking, a neighbourhood of a point is a set of points containing that point where one can move some amount in any direction away from that point without leaving the set.
 
 import numpy as np
 i=0
