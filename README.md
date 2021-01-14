@@ -116,8 +116,5 @@ mat = np.reshape(array,(256,256))
 img = Image.fromarray( mat , 'L')
 img.show() 
 cv2.waitKey(0)
-
 **output:**
 ![c2](https://user-images.githubusercontent.com/72255259/104577054-09316700-567f-11eb-95bf-8321556a7105.jpg)
-
-
