@@ -199,3 +199,44 @@ Summed neighbors matrix:
  [[11. 19. 13.]
  [23. 40. 27.]
  [17. 31. 19.]]
+9.Program to create the negation of a given image
+import cv2
+import numpy as np
+img=cv2.imread('cattt.jpg')
+cv2.imshow('original',img)
+cv2.waitKey(0)
+img_neg=255-img
+cv2.imshow('negative',img_neg)
+cv2.waitKey(0)
+10.Develop a program to perform contrast enhancement of an image
+from PIL import Image, ImageEnhance 
+img= Image.open(r"C:\Users\mucs\Pictures\cattt.jpg")
+img.show()
+im3 = ImageEnhance.Color(img) 
+im3.enhance(2.0).show()
+11.Program to perform image thresholding
+import cv2 
+import numpy as np 
+image1 = cv2.imread('cattt.jpg') 
+img = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY) 
+ret, thresh1 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY) 
+ret, thresh2 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY_INV) 
+ret, thresh3 = cv2.threshold(img, 120, 255, cv2.THRESH_TRUNC) 
+ret, thresh4 = cv2.threshold(img, 120, 255, cv2.THRESH_TOZERO) 
+ret, thresh5 = cv2.threshold(img, 120, 255, cv2.THRESH_TOZERO_INV) 
+cv2.imshow('Binary Threshold', thresh1) 
+cv2.imshow('Binary Threshold Inverted', thresh2) 
+cv2.imshow('Truncated Threshold', thresh3) 
+cv2.imshow('Set to 0', thresh4) 
+cv2.imshow('Set to 0 Inverted', thresh5) 
+if cv2.waitKey(0) & 0xff == 27: 
+    cv2.destroyAllWindows()
+    
+ ** 12.Program to perform power law transformation ** 
+    import cv2 
+import numpy as np 
+img = cv2.imread('cattt.jpg') 
+for gamma in [0.1, 0.5, 1.2, 2.2]: 
+    gamma_corrected = np.array(255*(img / 255) ** gamma, dtype = 'uint8') 
+    cv2.imshow('gamma_transformed'+str(gamma)+'.jpg', gamma_corrected)
+cv2.waitKey(0)
